@@ -63,6 +63,13 @@ body{
     border-radius: 10px;
     background-color: black;
     margin-top: 10px;
+    transition: 2s ease;
+    z-index: 100;
+}
+
+.center .phone-container .dynamic-island:hover{
+    transform: scaleX(3);
+    
 }
 
 .center .phone-container .dynamic-island .circle{
@@ -192,3 +199,20 @@ body{
 
 
 
+@media only screen and (max-width: 480px){
+    .center .logo h1{
+        font-size: 25px;
+        color: rgba(245, 245, 245, 0.715);
+    }
+
+    .center .logo img{
+        width: 100px;
+        margin: auto;
+        margin-top: 70px;
+
+    }
+}
+
+
+
+    
