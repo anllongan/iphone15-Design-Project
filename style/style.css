@@ -135,22 +135,59 @@ body{
 .center .phone-container #main img{
     width: 40px;
     height: 40px;
-    border-radius: 25px;
-    padding: 15px 11px;
+    border-radius: 20;
+    padding: 5px 11px 5px 11px;
+}
+
+
+.center .phone-container .apps .appname{
+    width:fit-content;
+    height: auto;
+    padding-top: -50px;
+}
+
+.center .phone-container .apps .appname p{
+    color: white;
+    text-align: center;
+    opacity: 0.5;
+    margin: 0;
+    margin-top: -3px;
+    margin-bottom: 7px;
+    font-size: 9px;
 }
 
 .center .phone-container .bottom{
-    position: relative;
-    display: block;
-    justify-content: flex-start;
+    position: fixed;
+    display: flex;
+    justify-content: flex;
     width: 220px;
-    height: auto;
-    margin-top: 74px;
+    height: min-content;
+    margin-top: 80px;
     margin-left: 8px;
     padding: 3px;
     padding-left: 10px; 
-    background-color:rgba(128, 128, 128, 0.242);
+    background-color:rgba(128, 128, 128, 0.15);
     border-radius: 30px;
+}
+.center .phone-container .bottom .appname{
+    display: flexbox;
+}
+
+.center .phone-container .bottom .appname img{
+    padding: 3px 7px;
+}
+
+
+
+.center .phone-container .bottom .appname p{
+    color: white;
+    text-align: center;
+    opacity: 0.5;
+    margin: 0;
+    padding: 0;
+    margin-top: -3px;
+    margin-bottom: 0px;
+    font-size: 9px;
 }
 
 
